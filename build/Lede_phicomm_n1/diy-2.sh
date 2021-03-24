@@ -18,7 +18,7 @@
 sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
 
 # 自定义机型跟内核
-echo "-b s905x3_s905d -k 5.4.105" > N1NEIHE
+echo "-b s905x3_s905d -k 5.10.23.TF_5.4.105_5.4.77_5.4.50" > N1NEIHE
 
 # 增加带WiFi驱动，emmc写入和NTFS格式优盘挂载
 packages=" \
